@@ -16,6 +16,7 @@ function Home() {
       <Link to="/signup">Go to Signup</Link>
       <br />
       <Link to="/login">Go to Login</Link>
+    <Link to="/feature">Go to Login</Link>
     </div>
   );
 }
