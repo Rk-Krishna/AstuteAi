@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Features from './Features';import { pageview } from 'react-ga4';
 
 function Home() {
   useEffect(() => {
@@ -16,7 +17,7 @@ function Home() {
       <Link to="/signup">Go to Signup</Link>
       <br />
       <Link to="/login">Go to Login</Link>
-    <Link to="/feature">Go to Login</Link>
+     <Features />
     </div>
   );
 }
