@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Features from './Features';import { pageview } from 'react-ga4';
+import Features from './Features';
 
 function Home() {
   useEffect(() => {
