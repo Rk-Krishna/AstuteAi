@@ -1,8 +1,14 @@
-
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 function Home() {
+  useEffect(() => {
+    // Track the page view
+    window.gtag('config', 'G-90NG0VBE7Z', {
+      page_path: window.location.pathname,
+    });
+  }, []);
+
   return (
     <div>
       <h1>Welcome to Astute AI</h1>
