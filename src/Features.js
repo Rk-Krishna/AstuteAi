@@ -1,4 +1,5 @@
-import "./Features.css";
+import React, { useEffect } from 'react';
+import "./Feature.css";
 
 const Features = () => {
   return (
