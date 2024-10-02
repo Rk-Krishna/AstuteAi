@@ -5,16 +5,14 @@
       "destination": "https://blog-six-liart-85.vercel.app/blog$1"
     }
   ],
-  "routes": [
-    {
-      "src": "/static/(.*)",
-      "dest": "/static/$1"
-    }
-  ],
   "builds": [
     {
       "src": "package.json",
       "use": "@vercel/react"
     }
-  ]
+  ],
+  "static": {
+    "src": "/static/**",
+    "dest": "/static/"
+  }
 }
