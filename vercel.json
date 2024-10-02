@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/blog(.*)",
-      "destination": "https://ravanthsenthil.pythonanywhere.com/blog$1"
+      "destination": "https://blog-six-liart-85.vercel.app/blog$1"
     },
     {
       "source": "/blog/*.{css,js,png,jpg,jpeg,gif}",
-      "destination": "https://blog-six-liart-85.vercel.app$1"
+      "destination": "https://blog-six-liart-85.vercel.app/blog$1"
     }
   ]
 }
