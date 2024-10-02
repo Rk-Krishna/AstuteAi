@@ -10,9 +10,5 @@
       "src": "package.json",
       "use": "@vercel/react"
     }
-  ],
-  "static": {
-    "src": "/static/**",
-    "dest": "/static/"
-  }
+  ]
 }
