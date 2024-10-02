@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/blog(.*)",
-      "destination": "https://blog-six-liart-85.vercel.app/blog$1"
+      "destination": "https://ravanthsenthil.pythonanywhere.com/blog$1"
     }
   ]
 }
