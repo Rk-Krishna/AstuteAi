@@ -4,11 +4,5 @@
       "source": "/blog(.*)",
       "destination": "https://blog-six-liart-85.vercel.app/blog$1"
     }
-  ],
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/react"
-    }
   ]
 }
